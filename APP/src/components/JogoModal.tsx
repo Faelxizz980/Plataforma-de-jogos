@@ -14,8 +14,8 @@ export function JogoModal({ jogo, fabricante, onClose }: Props) {
     if (!fabricante) return null;
 
     return (
-        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50" onClick={onClose}>
-            <div className="bg-sky-950 rounded-xl w-full max-w-lg overflow-hidden" onClick={(e) => e.stopPropagation()}>
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 " onClick={onClose}>
+            <div className="bg-sky-950 rounded-xl w-full max-w-lg overflow-hidden " onClick={(e) => e.stopPropagation()}>
 
                 <div className="relative h-48 w-full group">
                     <img src={jogo.fotos[fotoAtiva]} className="w-full h-full object-cover" />
@@ -23,20 +23,20 @@ export function JogoModal({ jogo, fabricante, onClose }: Props) {
                     {fotoAtiva > 0 && (
                         <button
                             onClick={() => setFotoAtiva(fotoAtiva - 1)}
-                            className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                            className="absolute left-2 top-1/2 -translate-y-1/2 cursor-pointer bg-black/50 text-white px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
                             ‹
                         </button>
                     )}
                     {fotoAtiva < jogo.fotos.length - 1 && (
                         <button
                             onClick={() => setFotoAtiva(fotoAtiva + 1)}
-                            className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                            className="absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer bg-black/50 text-white px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
                             ›
                         </button>
                     )}
                     <button
                         onClick={onClose}
-                        className="absolute top-3 left-3 bg-black/50 text-white text-sm px-3 py-1 rounded-lg">
+                        className="absolute top-3 left-3 bg-black/50 text-white cursor-pointer text-sm px-3 py-1 rounded-lg">
                         ✕
                     </button>
                     <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1">
