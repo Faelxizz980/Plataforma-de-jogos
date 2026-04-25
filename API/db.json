@@ -1,0 +1,147 @@
+{
+    "Fabricante": [
+        {
+            "id": 1,
+            "nome": "Valve",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Valve_logo.svg/1280px-Valve_logo.svg.png"
+        },
+        {
+            "id": 2,
+            "nome": "Riot Games",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Riot_Games_2022.svg/1280px-Riot_Games_2022.svg.png"
+        },
+        {
+            "id": 3,
+            "nome": "Epic Games",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1280px-Epic_Games_logo.svg.png"
+        },
+        {
+            "id": 4,
+            "nome": "Activision Blizzard",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Activision_Blizzard.svg/1280px-Activision_Blizzard.svg.png"
+        },
+        {
+            "id": 5,
+            "nome": "Mojang Studios",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mojang_Studios_2020.svg/1280px-Mojang_Studios_2020.svg.png"
+        },
+        {
+            "id": 6,
+            "nome": "Rockstar Games",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rockstar_Games_Logo.svg/1280px-Rockstar_Games_Logo.svg.png"
+        },
+        {
+            "id": 7,
+            "nome": "CD Projekt Red",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/CD_Projekt_Red_logo.svg/1280px-CD_Projekt_Red_logo.svg.png"
+        },
+        {
+            "id": 8,
+            "nome": "FromSoftware",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/FromSoftware_logo_2022.svg/1280px-FromSoftware_logo_2022.svg.png"
+        }
+    ],
+
+    "jogo": [
+        {
+            "id": 1,
+            "nome": "Counter-Strike 2",
+            "genero": "Ação, Grátis para Jogar",
+            "data_lanc": "2023-09-27",
+            "classificacao": 16,
+            "fabricante_id": 1,
+            "descricao": "Counter-Strike 2 é um jogo de tiro tático em primeira pessoa desenvolvido pela Valve. Sucessor do CS:GO, traz gráficos modernos com a engine Source 2, granadas de fumaça volumétricas e mapas completamente renovados.",
+            "fotos": ["https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg" , "https://d1q3zw97enxzq2.cloudfront.net/images/Counter-Strike_2_System_Requirem.width-1500.format-webp.webp", "https://www.oficinadanet.com.br/imagens/post/45643/capa-cs-2-transformed.jpeg", "https://d1q3zw97enxzq2.cloudfront.net/images/counter_strike_2_cou.width-1000.bgcolor-000.format-webp.webp"]
+        },
+        {
+            "id": 2,
+            "nome": "Dota 2",
+            "genero": "MOBA, Estratégia, Grátis para Jogar",
+            "data_lanc": "2013-07-09",
+            "classificacao": 12,
+            "fabricante_id": 1,
+            "descricao": "Dota 2 é um MOBA gratuito desenvolvido pela Valve onde dois times de 5 jogadores batalham para destruir a base inimiga chamada Ancient. Um dos jogos mais jogados do mundo com uma das maiores premiações de e-sports.",
+            "fotos": ["https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBt5WkmYSDC7caTGSNgrvi3XG64Kh9sqrQQ&s", "https://i.pcmag.com/imagery/reviews/00xeme7ybg1aolezzfqxhjv-3-hero-image-gallery.fit_lim.size_1200x630.v1569475078.jpg", "https://miro.medium.com/v2/resize:fit:1400/1*bjX2HdOx9RyFecPCbmOl4w.jpeg"]
+        },
+        {
+            "id": 3,
+            "nome": "League of Legends",
+            "genero": "MOBA, Estratégia, Grátis para Jogar",
+            "data_lanc": "2009-10-27",
+            "classificacao": 12,
+            "fabricante_id": 2,
+            "descricao": "League of Legends é o MOBA mais jogado do mundo, desenvolvido pela Riot Games. Dois times de 5 campeões batalham em Summoner's Rift para destruir o Nexus inimigo. Conta com mais de 160 campeões únicos.",
+            "fotos": ["https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-47eb328eac5ddd63ebd096ded7d0d5ab", "https://gankster.gg/wp-content/uploads/2025/07/leagueoflegends-1.jpg", "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/75de3cbd3816ca43b8ea74788d0de09a8900f1a4-1280x720.jpg", "https://play-lh.googleusercontent.com/L86dUiqEoA5qZxP23a-Zdm2pGA65i1uHUg6epHxdQqSc1fy6KgXT9cQCZy8EE6G_eA=w526-h296-rw"]
+        },
+        {
+            "id": 4,
+            "nome": "Valorant",
+            "genero": "FPS Tático, Grátis para Jogar",
+            "data_lanc": "2020-06-02",
+            "classificacao": 16,
+            "fabricante_id": 2,
+            "descricao": "Valorant é um FPS tático 5v5 da Riot Games que combina a precisão de jogos como CS com habilidades únicas de agentes. Cada agente possui habilidades especiais que criam situações táticas únicas.",
+            "fotos": ["https://www.riotgames.com/darkroom/1200/1dbd7211e78ce5faa7a8af9d10afad47:2b5979e3922758399ba389561e797919/ps-f2p-val-console-launch-16x9.jpg", "https://s2-g1.glbimg.com/E9-gARRRiFl_4WRQK11ZWN-Vg7w=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/d/A/jze8TURRKhTKz9LfLvRA/valorant1.jpg", "https://image.api.playstation.com/vulcan/ap/rnd/202405/2400/9c98fba4828d6739e4c35635f251fb18d81568657a65587f.jpg", "https://miro.medium.com/1*AKYMVXOu95rqQH7IHwgeeg.png"]
+        },
+        {
+            "id": 5,
+            "nome": "Fortnite",
+            "genero": "Battle Royale, Grátis para Jogar",
+            "data_lanc": "2017-07-21",
+            "classificacao": 12,
+            "fabricante_id": 3,
+            "descricao": "Fortnite é o battle royale mais popular do mundo desenvolvido pela Epic Games. 100 jogadores caem em uma ilha e lutam até restar apenas um, com o diferencial único do sistema de construção de estruturas.",
+            "fotos": ["https://www.oficinadanet.com.br/media/post/22811/1200/fortnite2022_x_1400x788.jpg", "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_500/store/software/switch/70010000010192/4fc31dac6fe1c6aa187db5ef89e3048a4da7317ab03098b4c3c4b4a7ce96ba35", "https://observatoriodegames.com.br/wp-content/uploads/2019/09/Fortnite_video-recap_08BR_Web_Wrap-Up_Landingpage-1920x1080-b8bb845212e05934128cfb80f9fab7d7cbbf205b.jpg", "https://meups.com.br/wp-content/uploads/2018/01/Fortnite.jpg"]
+        },
+        {
+            "id": 6,
+            "nome": "Call of Duty: Warzone",
+            "genero": "Battle Royale, FPS, Grátis para Jogar",
+            "data_lanc": "2020-03-10",
+            "classificacao": 18,
+            "fabricante_id": 4,
+            "descricao": "Warzone é o battle royale gratuito da franquia Call of Duty. Oferece combates intensos em Verdansk e outros mapas para até 150 jogadores, com mecânicas únicas como o Gulag e contratos durante a partida.",
+            "fotos": ["https://xboxwire.thesourcemediaassets.com/sites/8/2023/12/CODWZ_S1-X1_-1920x1080-enUS_JPG-7bfcc41943e5c8cfdb37-84f57fb66299540711ce.jpg", "https://bnetcmsus-a.akamaihd.net/cms/blog_header/jy/JYYQ5UNXZQ791715881380920.jpg", "https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt0a5fbf0445b2ab1c/6983dff5efc72d35c613759d/CODWZ-Screenshot_09-3840x2160-For_20260205_S02.jpg?imwidth=1920&imdensity=2.625", "https://s2-techtudo.glbimg.com/bCcrvmaS5Jd_49DqJTsebXYmPoA=/0x0:3840x2160/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2025/U/d/xq3TkARSAmZK0NstqBag/modos.jpg"]
+        },
+        {
+            "id": 7,
+            "nome": "Minecraft",
+            "genero": "Sandbox, Sobrevivência",
+            "data_lanc": "2011-11-18",
+            "classificacao": 10,
+            "fabricante_id": 5,
+            "descricao": "Minecraft é o jogo mais vendido da história com mais de 238 milhões de cópias. Desenvolvido pela Mojang, permite que jogadores construam e explorem mundos gerados proceduralmente feitos de blocos, no modo criativo ou sobrevivência.",
+            "fotos": ["https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_The-Wild-Update_540x300.jpg", "https://cms-assets.xboxservices.com/assets/65/15/6515e0be-8482-48bb-97f9-737010626408.jpg?n=Minecraft_Sneaky-Slider-1084_Tiny-Takeover_1600x675.jpg%202", "https://image.api.playstation.com/vulcan/ap/rnd/202603/3122/a4defb730333cc78c28f27f47b7d654f8353be50b0dc8050.jpg", "https://img.odcdn.com.br/wp-content/uploads/2025/07/cansou-minecraft-coisas-fazer-1920x1080.jpg"]
+        },
+        {
+            "id": 8,
+            "nome": "GTA V",
+            "genero": "Ação, Mundo Aberto",
+            "data_lanc": "2013-09-17",
+            "classificacao": 18,
+            "fabricante_id": 6,
+            "descricao": "Grand Theft Auto V é um dos jogos mais vendidos de todos os tempos com mais de 195 milhões de cópias. Desenvolvido pela Rockstar Games, oferece um vasto mundo aberto ambientado em Los Santos, além do popular GTA Online.",
+            "fotos": ["https://s2-techtudo.glbimg.com/Dx-d7zd6abaVIdY1QqGVKl_QvJ4=/0x0:620x349/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/s/i/R6L1HDR3GxheHSo2ECLQ/2013-10-11-grand-theft-auto-5-gta-finais.jpg", "data:image/jpeg;base64,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", "https://www.outerspace.com.br/wp-content/uploads/2020/08/gta5.jpg", "https://www.salvandonerd.blog.br/wp-content/uploads/2018/04/GTA5.jpeg"]
+        },
+        {
+            "id": 9,
+            "nome": "Cyberpunk 2077",
+            "genero": "RPG, Ação, Mundo Aberto",
+            "data_lanc": "2020-12-10",
+            "classificacao": 18,
+            "fabricante_id": 7,
+            "descricao": "Cyberpunk 2077 é um RPG de ação em mundo aberto da CD Projekt Red ambientado na distópica Night City. Após uma turbulenta estreia, recebeu grandes atualizações que transformaram o jogo em um dos melhores RPGs modernos.",
+            "fotos": ["https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg", "https://dicaspc.com.br/wp-content/uploads/2021/07/Cyberpunk-2077.jpg", "https://www.cyberpunk.net/build/images/social-thumbnail-en-ddcf4d23.jpg", "https://s2-techtudo.glbimg.com/YoxlK-B0lDKHe92fbwVFxecU6go=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/B/y/IoWtdGTG2BBrKZyEo1dA/lancamentos-semana-cyberpunk-2077.jpg"]
+        },
+        {
+            "id": 10,
+            "nome": "Elden Ring",
+            "genero": "RPG de Ação, Soulslike",
+            "data_lanc": "2022-02-25",
+            "classificacao": 16,
+            "fabricante_id": 8,
+            "descricao": "Elden Ring é um RPG de ação desenvolvido pela FromSoftware em colaboração com George R.R. Martin. Vencedor de Jogo do Ano 2022, oferece um vasto mundo aberto repleto de desafios épicos e narrativa profunda.",
+            "fotos": ["https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg","https://uploads.jovemnerd.com.br/wp-content/uploads/2022/02/elden-ring-review.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4vRcwtDltpzkvZZlB-ai4JmTDqY5DpCnKDQ&s", "https://i0.wp.com/thegemsbok.com/wp-content/uploads/2022/04/Elden-Ring-screenshot-with-draconic-tree-sentinel.png?fit=722%2C406&ssl=1"]
+        }
+    ]
+}
